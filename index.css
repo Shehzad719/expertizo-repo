@@ -1,0 +1,217 @@
+/* section content style */
+
+.section-content {
+    background-color: white;
+    height: 180vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hr {
+    width: 40px;
+    height: 5px;
+    background-color: #6195FF;
+    border-bottom: #6195FF solid 4px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.custom-bottom-line-style {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-right: 15px;
+}
+
+
+
+.custom-bottom-line-style-center {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+
+
+.custom-bottom-line-style-two {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-right: 15px;
+}
+
+
+
+/* section content five */
+
+.first-card-instructors{
+    background-color: #F4F4F4;
+    padding: 20px;
+}
+
+
+/* section content part three */
+
+.section-content-part-three {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* section part four */
+
+.circular-border {
+
+    background: white;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border: blue solid 1px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.first-card{
+
+    border: lightgray solid 1px;
+    padding: 50px;
+    width: 390px;
+    height: 600px;
+}
+
+.section-content-four{
+
+    height: 250vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+
+/* header style */
+
+.my-sticky{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.header-item {
+
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 10px;
+}
+
+.header-item>span.active {
+
+    border-bottom: #6195FF solid 2px;
+    padding-bottom: 4px;
+    color: #6195FF;
+    transition: 0.2s color;
+}
+
+.header-item>span:hover {
+    border-bottom: #6195FF solid 2px;
+    opacity: 0.9;
+    padding-bottom: 4px;
+    color: #6195FF;
+    cursor: pointer;
+}
+
+.header-menu {
+    width: 100%;
+    align-items: center;
+}
+
+
+/* section background image style  */
+
+
+.section-background-image {
+    background-image: url(./images/ic_background_expertizo.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.welcome-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    height: inherit;
+    background-color: rgba(0, 0, 0, 0.598);
+}
+
+.text-welcome-content {
+    margin: 0 25%;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 30px;
+    text-align: center;
+}
+
+.heading-welcome-content {
+    font-size: 70px;
+    color: white;
+    font-weight: bolder;
+}
+
+
+
+/* general style */
+
+.display-flex {
+    display: flex;
+}
+
+.inherit-parent-height {
+    height: inherit;
+}
+
+.align-item-center {
+    align-items: center;
+}
+
+.small-padding {
+    padding: 10px;
+}
+
+.margin-top-twenty {
+    margin-top: 50px;
+}
+
+.margin_top_seventy {
+    margin-top: 70px;
+}
+
+.light_background {
+    background-color: #FAFAFA;
+}
+
+.white_background {
+    background-color: white;
+}
